@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<title>Producciones Camaleón</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(./Productora/camaleon.jpg);
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Producciones Camaleón</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">SOBRE NOSOTROS</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> EQUIPO</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PROYECTOS</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACTO</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Cerrar ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">SOBRE NOSOTROS</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">EQUIPO</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">PROYECTOS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACTO</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small black">Hora de Experimentar</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium black">Arriesgarse</span><br>
+    <span class="w3-large black">Comenzar a crear</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Conocenos más</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <a href="https://www.facebook.com/HatakeClarissa" target="_blank">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    </a>
+    <a href="https://www.instagram.com/hatakeclarissa/" target="_blank">
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+    </a>
+    <a href="https://accounts.snapchat.com/accounts/snapcodes" target="_blank">
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+    </a>
+    <a href="https://www.pinterest.ie/HatakeClarissa/" target="_blank">
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  </a>
+   <a href="https://twitter.com/ClarissaHatake" target="_blank">
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/clarissa-quevedo-6367029b/" target="_blank">
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </a>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">Sobre la Compañía</h3>
+  <p class="w3-center w3-large">Características Clave de Nuestra Compañía</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <img src="./Productora/libertad.png" class="icono">
+      <p class="w3-large">Libertad Creativa</p>
+      <p>Toda idea es bienvenida. Sin juzgar, sin censura, sin prohibiciones. </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./Productora/pasion.png" class="icono">
+      <p class="w3-large">Pasión al Arte</p>
+      <p>Todo lo hacemos por amor al arte y sus varias formas de mostrarse y crearse.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./Productora/expresion.png" class="icono">
+      <p class="w3-large">Expresión</p>
+      <p>Nada de censura, decimos lo que queremos cuando queremos.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./Productora/difucion.png" class="icono">
+      <p class="w3-large">Difusión Responsable</p>
+      <p>Todos tenemos nuestras propias opiniones. Escucha las nuestras y dinos las tuyas.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>¿Qué es lo que hacemos?</h3>
+      <p>Aquí no nos limitamos, desde proyectos como comics hasta películas<br>toda idea creativa y que apoye al arte es parte de Producciones Camaleón</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> Mira Nuestros Trabajos</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="./Productora/nosotros.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">NUESTRO EQUIPO</h3>
+  <p class="w3-center w3-large">Quienes operan esta compañía</p>
+  <div id="personal">
+    <div class="w3-col m6 w3-margin-bottom centrar">
+      <div class="w3-card">
+        <img src="./img/luis.jpg" alt="Luis" style="width:100%">
+        <div class="w3-container">
+          <h3>Luis Tomás García Botello</h3>
+          <p class="w3-opacity">Productor y Director Creativo</p>
+          <p> Estudió Filosofía y Letras, la Licenciatura de cine y ahora trabaja como Actor.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m6 w3-margin-bottom centrar">
+      <div class="w3-card">
+        <img src="./img/cla.JPG" alt="Cla" style="width:100%">
+        <div class="w3-container">
+          <h3>Clarissa Sarahí Quevedo Contreras</h3>
+          <p class="w3-opacity">Prodcutora y Directora Creativa</p>
+          <p>Estudiante de la carrera de animación, ama las caricaruras y el arte en general.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">¿?+</span>
+    <br>Asociados
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">¿?+</span>
+    <br>Ideas en Marcha
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">¿?+</span>
+    <br>Proyectos por Comenzar
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">¿?+</span>
+    <br>Proyectos Acabados
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">Nuestro Trabajo</h3>
+  <p class="w3-center w3-large">¿Qué ideas y proyectos hemos cumplido?</p>
+
+  <div class="button" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <a href="./cine.html" target="_blank">
+        <img src="./Productora/cine.jpg" style="width:100%" class="w3-hover-opacity" alt="cine">
+      </a>
+    </div>
+    <div class="w3-col l3 m6">
+      <a href="./youtube.html" target="_blank">
+      <img src="./Productora/webb.png" style="width:100%" class="w3-hover-opacity" alt="web">
+    </div>
+    <div class="w3-col l3 m6">
+      <a href="./teatro.html" target="_blank">
+      <img src="./Productora/escenico.JPG" style="width:100%" class="w3-hover-opacity" alt="teatro">
+    </div>
+    <div class="w3-col l3 m6">
+      <a href="./escribir.html" target="_blank">
+      <img src="./Productora/escritura.jpg" style="width:100%" class="w3-hover-opacity" alt="escritura">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <!--<a href=""> link del enlace a donde me llevara -->
+      <a href="./animacion.html" target="_blank">
+        <img src="./Productora/comic.jpg" style="width:100%" class="w3-hover-opacity" alt="comic">        
+      </a>
+    </div>
+    <div class="w3-col l3 m6">
+      <a href="./foto.html" target="_blank">
+      <img src="./Productora/fotografia.JPG" style="width:100%" class="w3-hover-opacity" alt="camara">
+    </div>
+    <div class="w3-col l3 m6">
+      <a href="./sonido.html" target="_blank">
+      <img src="./Productora/sonido.jpg" style="width:100%" class="w3-hover-opacity" alt="sonido">
+    </div>
+    <div class="w3-col l3 m6">
+      <a href="./extra.html" target="_blank">
+      <img src="./Productora/tsuki.jpg" style="width:100%" class="w3-hover-opacity" alt="extras">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Contenido</h3>
+      <p>Nuestro contenido se basa en la creación de distintas formas por y para trasmitir arte.</p>
+      <p>Desde cuentos, guiónes o cómics, hasta series, películas y más.</p>
+      <p>En Producciones Camaleón solo queremos mostrar nuestro arte. </p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><img src="./Productora/video.png" class="iconos"> Video y Cine</p>
+      <div class="w3-grey">
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Contenido Web</p>
+      <div class="w3-grey">
+      </div>
+      <p class="w3-wide"><img src="./Productora/teatro.png" class="iconos"> Artes escenicas</p>
+      <div class="w3-grey">
+      </div>
+      <p class="w3-wide"><img src="./Productora/guion.png" class="iconos"> Guión y Escritura</p>
+      <div class="w3-grey">
+      </div>
+      <p class="w3-wide"><img src="./Productora/libro.png" class="iconos"> Animación y Cómic</p>
+      <div class="w3-grey">
+      </div>
+      <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Fotografía e Imágen</p>
+      <div class="w3-grey">
+      </div>
+      <p class="w3-wide"><img src="./Productora/audio.png" class="iconos"> Audio y Radio</p>
+      <div class="w3-grey">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACTO</h3>
+  <p class="w3-center w3-large">Pongamonos en contacto. Mandanos un mensaje:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Algún lugar en México</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Nombre"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Tema" required name="Tema"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Mensaje"></p>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane"></i> ENVIAR MENSAJE
+          </button>
+        </p>
+      </form>
+    </div>
+    <div class="w3-half">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/HatakeClarissa" target="_blank">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    </a>
+    <a href="https://www.instagram.com/hatakeclarissa/" target="_blank">
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+    </a>
+    <a href="https://accounts.snapchat.com/accounts/snapcodes" target="_blank">
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+    </a>
+    <a href="https://www.pinterest.ie/HatakeClarissa/" target="_blank">
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    </a>
+    <a href="https://twitter.com/ClarissaHatake" target="_blank">
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/clarissa-quevedo-6367029b/" target="_blank">
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </a>
+  </div>
+</footer>
+ 
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>

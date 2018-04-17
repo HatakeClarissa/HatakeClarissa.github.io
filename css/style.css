@@ -1,0 +1,22 @@
+
+.black{
+	color: black;
+}
+.icono{
+
+    width: 150px;
+}
+.iconos{
+	width: 20px
+}
+.centrar{
+
+	text-align: center;
+
+
+	margin: auto;
+}
+#personal{
+	padding: 0 20%;
+}
+
